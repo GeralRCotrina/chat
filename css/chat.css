@@ -1,0 +1,63 @@
+body {
+	background-image: url("../img/fondo.jpg");
+}
+
+.chat {
+	z-index: 100;
+	border: solid  #E8E7E7 1px;
+	border-radius: 10px;
+	width: 300px;
+	position: relative;
+	bottom: 10px; right: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: right;
+	position: fixed;
+	background: rgba(0,0,0,0.5);
+}
+
+.cab {
+	height: 40px;
+	border: solid #FFFAFA 1px;
+	border-radius: 5px 5px 0 0;
+	margin-bottom: 5px;
+}
+
+.cab i {
+	color: #C6FBE1;
+	font-weight: bold;
+}
+
+.msjr, .msjl{
+	height: auto;
+	min-width: 50%;
+	max-width: 90%;
+	padding: 5px;
+	margin-top: 2px;
+	margin-bottom: 3px;	
+}
+
+
+.msjl{
+	margin-left: 0px;
+	margin-right: auto;
+	border-radius: 20px 30px 30px 5px;
+	background: #FEF2CC;
+}
+.msjr{
+	margin-left: auto;
+	margin-right: 0px;
+	border-radius: 30px 20px 5px 30px;
+	background: #9BFD88;
+}
+
+
+.textos i {
+	font-family: courier,arial,helvética;
+	font-size: 0.8em;
+	font-style: italic;
+	color:#37684F;
+	line-height: 1em;
+}
+

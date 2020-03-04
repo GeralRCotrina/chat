@@ -1,78 +1,49 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <title>Wtsp-Chat</title>
+ <title>Chat</title>
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
- <style>
-  .wtsp1{
-		height: auto;
-		min-width: 50%;
-		max-width: 90%;
-		padding: 5px;
-		margin-top: 2px;
-		margin-bottom: 3px;		
-		background: #F6F3F3;
-	}
-	
-	.wtspl{
-		margin-left: 0px;
-		margin-right: auto;
-		border: solid #00c 1px;
-		border-radius: 20px 30px 30px 5px;
-	}
-	.wtspr{
-		margin-left: auto;
-		margin-right: 0px;
-		border: solid #0c0 1px;
-		border-radius: 30px 20px 5px 30px;
-	}
-	.chat1 {
-		z-index: 100;
-		border: solid  #E8E7E7 1px;
-		background: #E8E7E7;
-		border-radius: 10px;
-		width: 300px;
-		position: relative;
-		bottom: 10px; right: 10px;
-		padding: 5px;
-		margin-bottom: 10px;
-		margin-right: 10px;
-		float: right;
-		position: fixed;
- }
- </style>
+ <link rel="stylesheet" href="css/chat.css" >
 </head>
 <body>
-<!--div class ="container border mt-4 chat1">
-	<div class ="row">
-		<div class ="col-xs-10 col-sm-9 col-md-7 col-lg-4 p-1 mx-auto border"-->
-	<div class="chat1">
-		<div class="textos">
-	
-			<div class="wtsp1 wtspr pb-0">
-			  <a href="#" class="text-italic">Hola soy Geral.</a>
-			</div>
-			<div class="wtsp1 wtspl">
-			  <a href="#" class="text-italic">Que tal?</a>
-			</div>
-			<div class="wtsp1 wtspr">
-			  <a href="#" class="text-italic">Bien gracias, una consulta...</a>
-			</div>
-			<div class="wtsp1 wtspl">
-			  <a href="#" class="text-italic">si dime</a>
-			</div>
-			<div class="wtsp1 wtspr">
-			  <a href="#" class="text-italic">The content-box model states that padding and borders don't count in the width that you set for a box. So they add on to its width.</a>
+	<div class="chat">
+		<div class="cab">
+			<div class="container mt-1 ml-0">
+				<div class="row">
+					<div class="col-2 m-0 ">
+						<img src="img/perfil.png" alt="" class="img" height="30">
+					</div>
+					<div class="col-10">
+						<i>Walter Rengifo</i>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="enviar border btn-group btn-block h-100">
+		<div class="textos">	
+			<div class="msjr">
+			  <i>Hola soy Geral.</i>
+			</div>
+			<div class="msjl">
+			   <i>Que tal?</i>
+			</div>
+			<div class="msjr">
+			   <i>Bien gracias, una consulta...</i>
+			</div>
+			<div class="msjl">
+			   <i>si dime</i>
+			</div>
+			<div class="msjr">
+			   <i>The content-box model states that padding and borders don't count in the width that you set for a box. So they add on to its width.</i>
+			</div>
+		</div>
+		<div class="enviar btn-group btn-block h-100">
 			<input type="text" class="btn text-left bg-light"/>
 			<button type="submit" class="btn btn-outline-light">
 				<img src="https://cdn.icon-icons.com/icons2/259/PNG/128/ic_send_128_28719.png" height="30px";>
 			</button>		
-		</div>
-	</div-->
-</div>
+		</div>	
+	</div>
+
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
